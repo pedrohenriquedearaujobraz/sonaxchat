@@ -1,0 +1,49 @@
+/* Estiliza o container principal do chat */
+.plugSocialChat .chat_container {
+    display: block; /* Garante que o chat esteja sempre visível */
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #ccc; /* Adiciona uma borda ao redor do chat, opcional */
+}
+
+/* Esconde o botão de encerrar o atendimento */
+#modalPlugCloseProtocolLink {
+    display: none;
+}
+
+/* Personaliza a barra superior do chat */
+.top_menu {
+    background-color: #ffd200; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+}
+
+/* Personaliza o título do chat na barra superior */
+.top_menu .title .plugSocialChat_title {
+    font-weight: bold;
+}
+
+/* Ajusta a aparência dos botões da barra superior */
+.top_menu .buttons a {
+    color: #000; /* Cor do ícone */
+}
+
+/* Estiliza o fundo e a fonte das mensagens */
+.plugSocial_messages {
+    background-color: #f4f4f4; /* Cor de fundo das mensagens */
+    color: #333; /* Cor do texto das mensagens */
+}
+
+/* Personaliza a caixa de entrada de mensagem */
+.bottom_wrapper {
+    background-color: #fff; /* Cor de fundo da caixa de entrada */
+}
+
+.message_input {
+    border: 1px solid #ccc; /* Adiciona uma borda à caixa de entrada */
+    color: #333; /* Cor do texto digitado */
+}
+
+/* Ajusta o botão de enviar mensagem */
+.send_message a {
+    color: #ffd200; /* Cor do ícone de envio */
+}
